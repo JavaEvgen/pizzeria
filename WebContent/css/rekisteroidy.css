@@ -1,0 +1,953 @@
+/* This code is only meant for previewing your Reflow design. */
+#Navi1 {
+	display: none;
+}
+.menu {
+	display: none;
+}
+.toggle {
+	display: none;
+}
+nav {
+	display: none;
+}
+#text13 {
+    float: left;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    color: rgb(210, 232, 185);
+    font-family: 'Poiret One', cursive;
+}
+#text14 {
+    float: left;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    color: rgb(250, 246, 221);
+    font-family: 'Poiret One', cursive;
+}
+.primaryContainer {
+  height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("../kuvat/Background.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100% 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#box {
+    float: left;
+    height: 10px;
+    margin-left: 0%;
+    clear: both;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+}
+
+#image {
+    float: left;
+    width: 247.5px;
+    max-width: 100%;
+    height: 87.45px;
+    margin: 2.5% 0% 2.5% 2.5%;
+    clear: none;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+#image:hover {
+    opacity: 1;
+}
+
+#text {
+    float: left;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 5.109643%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(210, 232, 185);
+    display: block;
+    font-family: 'Poiret One', cursive;
+    opacity: 1;
+}
+
+#text1 {
+    float: left;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 5.001464%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(210, 232, 185);
+    display: block;
+    font-family: 'Poiret One', cursive;
+    opacity: 1;
+}
+
+#text2 {
+    float: left;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 4.999024%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(210, 232, 185);
+    display: block;
+    font-family: 'Poiret One', cursive;
+    opacity: 1;
+}
+
+#text3 {
+    float: right;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    margin-right: 4.888404%;
+    color: rgb(210, 232, 185);
+    display: block;
+    font-family: 'Poiret One', cursive;
+    opacity: 1;
+}
+
+#text:hover {
+    color: rgb(250, 246, 221);
+}
+
+#text1:hover {
+    color: rgb(250, 246, 221);
+}
+
+#text2:hover {
+    color: rgb(250, 246, 221);
+}
+
+#text3:hover {
+    color: rgb(250, 246, 221);
+}
+
+#text:active {
+    color: rgb(250, 246, 221);
+}
+
+#text1:active {
+    color: rgb(186, 144, 119);
+}
+
+#text2:active {
+    color: rgb(186, 144, 119);
+}
+
+#text3:active {
+    color: rgb(186, 144, 119);
+}
+
+#box3 {
+    float: left;
+    height: 10px;
+    margin-left: 0%;
+    margin-top: 2.5%;
+    clear: both;
+    width: 100%;
+    min-width: 0px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+#text12 {
+    float: left;
+    font-size: 160%;
+    width: 100%;
+    height: 5.836576%;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 2.499512%;
+    clear: both;
+    min-height: 0px;
+    min-width: 0px;
+    color: rgb(250, 246, 221);
+    font-family: 'Poiret One', cursive;
+}
+
+#Navi {
+    float: left;
+    height: 7%;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.65098);
+}
+
+#box1 {
+    float: left;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    clear: both;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 15px 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 15px 10px;
+}
+
+#text4 {
+    float: none;
+    font-size: 200%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 2.5%;
+    clear: none;
+    min-height: 0%;
+    min-width: 0px;
+    margin-right: auto;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+    margin-bottom: 2.5%;
+}
+
+#box2 {
+    float: left;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    clear: both;
+    width: 95%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 15px 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 15px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 0%;
+}
+
+#formgroup {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 21.733621%;
+    margin-top: 2.499229%;
+    clear: none;
+    width: 23.267064%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#textinput {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    background-color: rgba(255, 255, 255, 0.541176);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+}
+
+#text5 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#formgroup2 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 21.733621%;
+    margin-top: 2.500086%;
+    clear: both;
+    width: 23.267064%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#Puhelin_numero_ {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput2 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup4 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 21.733621%;
+    margin-top: 2.497517%;
+    clear: both;
+    width: 23.267064%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#text8 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput4 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup7 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 9.999486%;
+    margin-top: 2.497517%;
+    clear: none;
+    width: 25%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+    margin-bottom: 2.5%;
+}
+
+#text11 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput7 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup1 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 9.999486%;
+    margin-top: 2.499229%;
+    clear: none;
+    width: 25%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#text6 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput1 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup3 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 9.999486%;
+    margin-top: 2.497517%;
+    clear: none;
+    width: 25%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#text7 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput3 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup5 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 9.999486%;
+    margin-top: 2.497517%;
+    clear: none;
+    width: 25%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+}
+
+#text9 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput5 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#formgroup6 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 21.733621%;
+    margin-top: 2.500942%;
+    clear: both;
+    width: 23.267064%;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin-right: 0px;
+    margin-bottom: 2.5%;
+}
+
+#text10 {
+    float: none;
+    font-size: 150%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    color: rgb(210, 232, 185);
+}
+
+#textinput6 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 160%;
+    display: block;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px inset;
+    background-color: rgba(255, 255, 255, 0.541176);
+}
+
+#input {
+    float: none;
+    height: 50px;
+    font-size: 180%;
+    margin-left: auto;
+    margin-top: 0%;
+    clear: both;
+    width: 14.999658%;
+    margin-right: auto;
+    margin-bottom: 2.5%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0.541176);
+    font-family: 'Poiret One', cursive;
+    color: rgb(232, 238, 202);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 10px 1px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px 1px;
+    min-width: 150px;
+}
+@media only screen and (max-width: 845px) {
+  #box {
+    opacity: 1;
+}	
+#Navi1 {
+    float: right;
+	margin-right: 10px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30px;
+    display: block;
+}
+#text {
+	display:none;
+}
+#text1 {
+	display:none;
+}
+#text2 {
+	display:none;
+}
+#text3 {
+	display:none;
+}
+.menu {
+	display: block;
+}
+.toggle {
+	display: block;
+}
+nav {
+	display: block;
+}
+.menu {
+	color: rgb(227, 224, 207);
+}
+nav ul li {
+	font-family: poiret-one;
+}
+
+p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  background-color: rgb(0, 0, 0);
+}
+
+nav a {
+  display: block;
+  padding-bottom: 10px;
+  opacity: 1;
+}
+
+.toggle + a,
+ .menu { display: none; }
+
+.toggle {
+  display: block;
+  color: rgb(227, 224, 207);
+  font-size: 160%;
+  font-family: poiret-one;
+  margin-top: 50px;
+  margin-right: 10px;
+  float: right;
+}
+
+[id^=drop]:checked + ul { display: block; }
+
+nav ul li {
+  display: block;
+  width: 100%;
+}	
+    #box1 {
+        margin-top: 5%;
+    }
+    #box2 {
+        margin-top: 5%;
+    }	
+
+    #box3 {
+        margin-top: 5%;
+    }
+
+    #text12 {
+        margin-top: 2.502321%;
+        margin-left: 0%;
+        clear: left;
+    }
+
+    #text {
+        font-size: 150%;
+        margin-top: 2.5%;
+        margin-right: 0%;
+        margin-left: 2.5%;
+        clear: both;
+        font-family: 'Poiret One', cursive;
+        font-weight: 900;
+    }
+
+    #text1 {
+        font-size: 160%;
+        margin-top: 2.5%;
+        margin-left: 5%;
+        clear: none;
+        margin-right: 0%;
+        font-family: 'Poiret One', cursive;
+        font-weight: 900;
+    }
+
+    #image {
+        margin-bottom: 0px;
+    }
+
+    #formgroup2 {
+        margin-top: 2.501168%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup4 {
+        margin-top: 2.501168%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup5 {
+        margin-top: 2.499221%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup6 {
+        margin-top: 2.501168%;
+        margin-left: auto;
+        clear: none;
+        margin-bottom: 0%;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup7 {
+        margin-top: 2.5%;
+        margin-left: auto;
+        clear: none;
+        margin-bottom: 10%;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #input {
+        margin-top: 0%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #formgroup3 {
+        margin-top: 2.499221%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup1 {
+        margin-top: 2.499221%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+
+    #formgroup {
+        margin-top: 2.5%;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	#box1 {
+        margin-top: 10%;
+    }
+    #box2 {
+        margin-top: 10%;
+    }	
+
+    #box3 {
+        margin-top: 10%;
+    }
+ 	.toggle {
+  margin-top: 30px;
+}
+	#image {
+    width: 165px;
+    height: 58.3px;
+}
+	#Navi1 {
+    float: right;
+	margin-right: 5px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 20px;
+    display: block;
+}
+
+    #text12 {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        clear: left;
+    }
+}
+
